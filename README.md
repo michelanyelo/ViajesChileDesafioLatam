@@ -66,7 +66,7 @@ Si deseas contribuir al proyecto, sigue estos pasos:
 5. Abre un Pull Request.
 
 ## ✍️ Autor
-- **Miguel Monzón**
+- **Miguel Ángel Monzón Martínez**
   - Github: [@michelanyelo](https://github.com/michelanyelo)
   - LinkedIn: [miguelmonzon-inf](https://linkedin.com/in/miguelmonzon-inf)
   
