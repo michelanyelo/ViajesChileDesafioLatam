@@ -62,7 +62,7 @@ Si deseas contribuir al proyecto, sigue estos pasos:
 4. Envía tus cambios (`git push origin nueva-funcionalidad`).
 5. Abre un Pull Request.
 
-## ✍️ Author
+## ✍️ Autor
 👤 Miguel Monzón
 
 Github: @michelanyelo
