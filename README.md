@@ -74,5 +74,5 @@ Si deseas contribuir al proyecto, sigue estos pasos:
 
 ## 🧾 Licencia
 
-Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles. Copyright © 2024 Miguel Monzón.
+Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](https://github.com/michelanyelo/ViajesChileDesafioLatam/blob/main/LICENSE) para más detalles. Copyright © 2024 Miguel Ángel Monzón Martínez.
 
