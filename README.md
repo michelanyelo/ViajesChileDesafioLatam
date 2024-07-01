@@ -5,6 +5,9 @@
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-brightgreen.svg?logo=bootstrap&logoColor=white)](https://getbootstrap.com/docs/5.3/)
 [![jQuery](https://img.shields.io/badge/jQuery-3.7-blue.svg?logo=jquery&logoColor=white)](https://jquery.com/)
 [![Popper](https://img.shields.io/badge/Popper-2.11-orange.svg?logo=popper.js&logoColor=white)](https://popper.js.org/)
+ <a href="LICENSE">
+    <img alt="Licencia MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
 
 ## 📝 Descripción
 
@@ -72,5 +75,4 @@ LinkedIn: @miguelmonzon-inf
 ## 🧾 Licencia
 
 Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles. Copyright © 2024 Miguel Monzón.
-
 
