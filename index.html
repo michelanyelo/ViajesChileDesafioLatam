@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Chile</title>
+    <!-- autor de la página -->
+    <meta name="author" content="Miguel Ángel Monzón Martínez" />
+    <!-- descripción del sitio -->
+    <meta name="description" content="Viajando por Chile" />
+    <!-- palabras importantes -->
+    <meta name="keywords" content="Chile, viajes, paisajes, naturaleza, lugares, norte, centro, sur" />
+    <!-- favicon icon -->
+    <link rel="icon" href="assets/img/viajes.svg" type="image/x-icon" />
+    <!-- CSS Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- CSS Propio -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Google Font Noto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/bee1354801.js" crossorigin="anonymous"></script>
+    <!-- JQuery 3.7 minified -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- hero section -->
+    <section class="hero-section">
+        <!-- menú navegación off canvas responsive-->
+        <nav id="navbarviajes" class="navbar navbartop navbar-expand-md navbar-dark fixed-top bg-transparent"
+            aria-label="Offcanvas navbar large">
+            <div class="container">
+                <a href="#"><img class="navbartop-logo" src="assets/img/viajes.svg" alt="" width="30" height="24"></a>
+                <a class="navbar-brand" href="#">Viajes Chile</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavBar" aria-controls="offcanvasNavBar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" id="offcanvasNavBar"
+                    aria-labelledby="offcanvasNavBarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavBarLabel">Viajes Chile</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav ms-auto">
+                            <!-- enlaces con smooth scroll via bootstrap js -->
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#" data-bs-smooth-scroll>
+                                    Inicio</a>
+                            </li>
+                            <li class="nav-item d-none d-sm-block">
+                                <a class="nav-link" href="#qsomos" data-bs-smooth-scroll>Quienes Somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#destacados" data-bs-smooth-scroll>Destacados</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contacto" data-bs-smooth-scroll>Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- carrusel bs -->
+        <div id="carruselviajes" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100"
+                        alt="Conoce la flora y fauna de nuestro Altiplano Andino">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100"
+                        alt="Disfruta los impactantes paisajes de Isla de Pascua">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="Recorre la mágica Carretera Austral">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselviajes" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselviajes" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- quienes somos section -->
+    <section id="qsomos" class="container d-none d-sm-block">
+        <h2 class="qsomostitulo py-3 text-center">¿Quiénes Somos?</h2>
+        <div class="border-top border-2 border-dark pb-5 mb-2"></div>
+        <div class="row ">
+            <div class="col-4 text-center">
+                <span class="qsomosicon rounded-1 py-1"><i class="fa-solid fa-plane-departure"></i></span>
+                <p class="my-2">Somos una empresa de viajes y turismo que nace
+                    con el objetivo de brindar a nuestros clientes la mejor experiencia
+                    de viaje, con el mejor servicio y la mejor calidad. Nuestro
+                    compromiso es brindar a nuestros clientes la mejor experiencia de viaje
+                    Somos una empresa de viajes y turismo que nace
+                    con el objetivo de brindar a nuestros clientes la mejor experiencia
+                    de viaje, con el mejor servicio y la mejor calidad. Nuestro
+                    compromiso es brindar a nuestros clientes la mejor experiencia de viaje
+                </p>
+            </div>
+            <div class="col-4 text-center">
+                <p class="mb-2">Somos una empresa de viajes y turismo que nace
+                    con el objetivo de brindar a nuestros clientes la mejor experiencia
+                    de viaje, con el mejor servicio y la mejor calidad. Nuestro
+                    compromiso es brindar a nuestros clientes la mejor experiencia de viaje
+                    Somos una empresa de viajes y turismo que nace
+                    con el objetivo de brindar a nuestros clientes la mejor experiencia
+                    de viaje, con el mejor servicio y la mejor calidad. Nuestro
+                    compromiso es brindar a nuestros clientes la mejor experiencia de viaje
+                </p>
+                <span class="qsomosicon rounded-1 py-1"><i class="fa-solid fa-plane"></i></span>
+            </div>
+            <div class="col-4 text-center">
+                <span class="qsomosicon rounded-1 py-1"><i class="fa-solid fa-plane-arrival"></i></span>
+                <p class="my-2">Somos una empresa de viajes y turismo que nace
+                    con el objetivo de brindar a nuestros clientes la mejor experiencia
+                    de viaje, con el mejor servicio y la mejor calidad. Nuestro
+                    compromiso es brindar a nuestros clientes la mejor experiencia de viaje
+                    Somos una empresa de viajes y turismo que nace
+                    con el objetivo de brindar a nuestros clientes la mejor experiencia
+                    de viaje, con el mejor servicio y la mejor calidad. Nuestro
+                    compromiso es brindar a nuestros clientes la mejor experiencia de viaje
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- destacados section -->
+    <section id="destacados" class="container py-5 px-5">
+        <h2 class="destacadostitulo py-3 text-center">Destacados</h2>
+        <div class="border-top border-2 border-dark pb-5 mb-2"></div>
+        <div class="row">
+            <!-- card sur de chile -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card cardestacados my-2">
+                    <img src="assets/img/card1.jpg" class="card-img-top img-fixed" alt="Sur de Chile">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi nostrum
+                            asperiores itaque dignissimos?</p>
+                    </div>
+                </div>
+            </div>
+            <!-- card norte de chile -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card cardestacados my-2">
+                    <img src="assets/img/card2.jpg" class="card-img-top img-fixed" alt="Norte de Chile">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi nostrum
+                            asperiores itaque dignissimos?</p>
+                    </div>
+                </div>
+            </div>
+            <!-- card salares -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card cardestacados my-2">
+                    <img src="assets/img/card3.jpg" class="card-img-top img-fixed" alt="Salares">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi nostrum
+                            asperiores itaque dignissimos?</p>
+                    </div>
+                </div>
+            </div>
+            <!-- card selva valdiviana -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card cardestacados my-2">
+                    <img src="assets/img/card4.jpg" class="card-img-top img-fixed" alt="Selva Valdiviana">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi nostrum
+                            asperiores itaque dignissimos?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- formulario section -->
+    <section id="contacto" class="container py-5 px-5">
+        <h2 class="contactotitulo py-3 text-center">Contacto</h2>
+        <div class="border-top border-2 border-dark pb-5 mb-2"></div>
+        <form class="row g-3 needs-validation formcontacto" novalidate>
+            <div class="col-12">
+                <label for="contactonombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="contactonombre" placeholder="Nombre Completo" required>
+                <div class="valid-feedback">
+                    Los nombres parecen correctos.
+                </div>
+                <div class="invalid-feedback">
+                    Por favor escribe tu nombre (!)
+                </div>
+            </div>
+            <div class="col-12">
+                <label for="contactoasunto" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="contactoasunto" placeholder="Asunto" required>
+                <div class="valid-feedback">
+                    El asunto parece correcto.
+                </div>
+                <div class="invalid-feedback">
+                    Por favor escribe tu asunto (!)
+                </div>
+            </div>
+
+            <div class="col-12">
+                <label for="contactomensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="contactomensaje" placeholder="Mensaje" required></textarea>
+                <div class="valid-feedback">
+                    El mensaje parece correcto.
+                </div>
+                <div class="invalid-feedback">
+                    Por favor escribe tu mensaje (!)
+                </div>
+            </div>
+
+            <div class="col-12">
+                <button class="btn btn-primary contactobtn" type="submit">Enviar</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- footer -->
+    <footer id="piepagina" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <a class="link-light text-decoration-none" href="#">
+                        <h3 class="piepaginatitulo">Viajes chile</h3>
+                    </a>
+                </div>
+                <!-- íconos font awesome y tooltips bs personalizados -->
+                <div class="col-12 col-sm-6 text-center">
+                    <a href="https://www.github.com" target="_blank" data-bs-toggle="tooltip" data-bs-title="GitHub"
+                        data-bs-custom-class="custom-tooltip"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank" data-bs-toggle="tooltip" data-bs-title="LinkedIn"
+                        data-bs-custom-class="custom-tooltip"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com" target="_blank" data-bs-toggle="tooltip" data-bs-title="X"
+                        data-bs-custom-class="custom-tooltip"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://www.facebook.com" target="_blank" data-bs-toggle="tooltip" data-bs-title="Facebook"
+                        data-bs-custom-class="custom-tooltip"><i class="fa-brands fa-square-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- JS Popper 2.11 -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <!-- JS Bootstrap 5.3 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <!-- JS Propio -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
