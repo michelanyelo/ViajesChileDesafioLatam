@@ -4,6 +4,9 @@
 
 Este proyecto es parte del taller "Fundamentos de Desarrollo Front-End" del BootCamp Desarrollo de aplicaciones Front End Trainee de DesafíoLatam. El objetivo es crear una aplicación web para planificar y organizar viajes por todo Chile.
 
+## ▶️ DEMO
+
+
 ## 🌐 Tecnologías Utilizadas
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
