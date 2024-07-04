@@ -6,6 +6,8 @@ Este proyecto es parte del taller "Fundamentos de Desarrollo Front-End" del Boot
 
 ## ▶️ DEMO
 
+![](https://github.com/michelanyelo/ViajesChileDesafioLatam/blob/main/Viajes-Chile.gif)
+
 
 ## 🌐 Tecnologías Utilizadas
 
@@ -22,6 +24,7 @@ Este proyecto es parte del taller "Fundamentos de Desarrollo Front-End" del Boot
 - [Popper 2.11](https://popper.js.org/): Utilizado para la gestión de popovers y tooltips.
 
 ## 📁 Estructura del Proyecto
+
 ```plaintext
 .
 |-- assets
@@ -68,6 +71,7 @@ Si deseas contribuir al proyecto, sigue estos pasos:
 5. Abre un Pull Request.
 
 ## ✍️ Autor
+
 - **Miguel Ángel Monzón Martínez**
   - Github: [@michelanyelo](https://github.com/michelanyelo)
   - LinkedIn: [miguelmonzon-inf](https://linkedin.com/in/miguelmonzon-inf)
